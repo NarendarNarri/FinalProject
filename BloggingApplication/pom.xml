@@ -4,6 +4,14 @@
   <artifactId>BloggingApplication</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+	<profiles>
+        <profile>
+            <id>sonar</id>
+            <properties>
+            <sonar.host.url>http://ec2-18-219-145-224.us-east-2.compute.amazonaws.com:9000</sonar.host.url>
+            </properties>
+        </profile>
+    </profiles>
 <dependencies>
 
     
