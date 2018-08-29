@@ -8,7 +8,7 @@
         <profile>
             <id>sonar</id>
             <properties>
-            <sonar.host.url>http://18.219.145.224:9000</sonar.host.url>
+            <sonar.host.url>http://18.188.105.117:9001</sonar.host.url>
             </properties>
         </profile>
     </profiles>
